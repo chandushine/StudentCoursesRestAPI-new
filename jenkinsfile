@@ -7,7 +7,7 @@ pipeline {
         stage ( 'VCS' ) {
             steps {
               git url: "https://github.com/chandushine/StudentCoursesRestAPI-new.git"
-              branch: "sprint_release1"
+              branch: "deveops"
             }
         }
         stage ( 'image build $ push' ) {
